@@ -1,0 +1,140 @@
+@import url(./style.css);
+
+.banner {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR3KVwltq4T__MUwZ24giegHNKbERH_YVxdg&usqp=CAU");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  /* width: 1; */
+  height: 400px;
+  position: relative;
+}
+
+.history {
+  position: absolute;
+  top: 15%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  left: 10%;
+  z-index: 5;
+  padding: 20px;
+  background-color: aliceblue;
+  width: 50%;
+}
+
+.history:hover {
+  background-color: black;
+  color: aliceblue;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all 0.25s ease;
+}
+
+.design {
+  /* background: linear-gradient(to right bottom, green, white); */
+  background-size: cover;
+  background-position: top top;
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+.design h2 {
+  margin-block: 60px;
+  text-align: center;
+  color: #0047ab;
+}
+
+.design-boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.design-box {
+  width: 45%;
+  min-width: 300px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: #fff;
+  margin-bottom: 70px;
+}
+.design-box img {
+  height: 350px;
+}
+
+.line {
+  width: 3px;
+  height: 50px;
+  color: antiquewhite;
+  box-shadow: 0 5px 10px black;
+  margin: 0 auto;
+}
+
+.design-box h5 {
+  font-weight: 400;
+  font-family: "metropolis-light";
+}
+
+.design-box:hover .line {
+  background-color: #0047ab;
+  transition: all 0.25s ease;
+  transform: scale(1.2) rotate(180deg);
+}
+.design-box:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: all 0.25s ease;
+}
+
+.display {
+  margin-block: 40px;
+}
+
+.display button {
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 500px;
+  background-color: white;
+  font-weight: 500;
+}
+
+.active {
+  background-color: #177245 !important;
+  color: white;
+}
+
+.display button:hover {
+  background-color: #177245;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}
+
+.feature p {
+  padding: 20px;
+  background-color: azure;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.feature strong {
+  display: inline-block;
+  padding: 20px 5px;
+  border-radius: 50%;
+  border-bottom-right-radius: unset;
+  background-color: #0047ab;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.feature p:hover {
+  background-color: #0047ab;
+  color: white;
+  transition: all 0.25s ease;
+}
