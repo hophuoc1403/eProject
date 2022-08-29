@@ -30,7 +30,7 @@
 }
 
 .traditional {
-  padding: 50px 30px;
+  padding: 50px 50px;
   background-color: rgb(4, 62, 82);
   color: aliceblue;
   font-family: "metropolis-medium";
@@ -56,12 +56,14 @@
   background-color: rgb(29, 29, 29);
   padding-top: 30px;
   overflow: hidden;
-  max-height: 500px;
+  height: 600px;
 }
 
 .traditional-box h2 {
   padding-inline: 30px;
   margin-bottom: 30px;
+  text-align: center;
+  font-family: "Metropolis-BlackItalic";
 }
 
 .traditional-box p {
@@ -112,7 +114,7 @@
 .contemporary-box {
   width: 45%;
   height: 400px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   padding-bottom: 20px;
   background-color: rgb(29, 29, 29);
   overflow: hidden;
@@ -122,12 +124,13 @@
 .contemporary-box h3 {
   margin-top: 30px;
   text-align: center;
+  font-family: "Metropolis-BlackItalic";
 }
 
 .contemporary-box:hover {
   transform: scale(1.05);
   border-bottom: 5px solid #0047ab;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .contemporary-box:hover img {

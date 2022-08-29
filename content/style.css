@@ -13,6 +13,13 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Metropolis-BlackItalic";
+  src: url("../MetropolisFontfamily/Metropolis-BlackItalic.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
 .card-img {
   width: 100%;
   height: 100%;
