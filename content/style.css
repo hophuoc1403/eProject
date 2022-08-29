@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "metropolis-medium";
+  src: url("../MetropolisFontfamily/Metropolis-Medium.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "metropolis-light";
+  src: url("../MetropolisFontfamily/Metropolis-Light.otf");
+
+  font-style: normal;
+  font-weight: normal;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+}
+
+.card-img1 {
+  width: 100%;
+  object-fit: cover;
+  height: 80%;
+}
