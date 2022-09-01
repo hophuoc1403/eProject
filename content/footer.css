@@ -158,6 +158,19 @@
   transition: all 0.25s linear;
 }
 
+.location span:nth-child(1) {
+  color: white;
+
+  margin-top: 20px !important;
+}
+
+.location span:nth-child(3) {
+  font-size: 22px !important;
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+}
+
 .contact a:first-child:hover {
   color: #007bb6 !important;
   transition: all 0.25s linear;

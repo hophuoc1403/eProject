@@ -133,5 +133,8 @@ myApp.config(function ($routeProvider) {
     })
     .when("/contact", {
       templateUrl: "contact.html",
+    })
+    .when("/feedback", {
+      templateUrl: "feedBack.html",
     });
 });
